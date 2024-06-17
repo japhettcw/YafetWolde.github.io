@@ -1,102 +1,175 @@
 <!DOCTYPE HTML>
-<!--
-  Massively by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-  <head>
+<head>
     <title>Yafet Wolde Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-  </head>
-  <body class="is-preload">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        #intro h1 {
+            font-size: 3em;
+            font-weight: 700;
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #intro p {
+            font-size: 1.2em;
+            color: #666;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        #nav {
+            background: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        #nav a {
+            color: #333;
+            padding: 0 15px;
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+        #nav a:hover {
+            color: #007bff;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .header-major h2 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        .posts article {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .posts .actions .button {
+            background-color: #28a745;
+        }
+        .posts .actions .button:hover {
+            background-color: #218838;
+        }
+        .split.contact h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .split.contact p, .split.contact a {
+            color: #666;
+        }
+        #footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #f8f9fa;
+        }
+        #footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        #footer ul li {
+            display: inline;
+            margin: 0 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
     <!-- Wrapper -->
-      <div id="wrapper" class="fade-in">
+    <div id="wrapper" class="fade-in">
 
         <!-- Intro -->
-          <div id="intro">
-            <h1>Yafet Wolde<br />
-            portfolio</h1>
-            <p>I am a Data Analyst skilled in Excel,SQL,Python,Tableau,PowerBI. @Japhettcw View my recent projects below
-               <a href="https://html5up.net/license"></a>.</p>
+        <div id="intro">
+            <h1>Yafet Wolde<br />Portfolio</h1>
+            <p>I am a Data Analyst skilled in Excel, SQL, Python, Tableau, Power BI. @Japhettcw View my recent projects below
+                <a href="https://japhettcw.github.io/YafetWolde.github.io/">here</a>.
+            </p>
             <ul class="actions">
-              <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
-          </div>
+        </div>
 
         <!-- Header -->
-          <header id="header">
+        <header id="header">
             <a href="index.html" class="logo">Yafet Wolde</a>
-          </header>
+        </header>
 
         <!-- Nav -->
-          <nav id="nav">
+        <nav id="nav">
             <ul class="links">
-              <li class="active"><a href="index.html">Projects</a></li>
-
+                <li class="active"><a href="index.html">Projects</a></li>
             </ul>
             <ul class="icons">
-              <li><a href="https://www.linkedin.com/in/yafet-wolde" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-              <li><a href="https://github.com/japhettcw" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/yafet-wolde" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/japhettcw" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
             </ul>
-          </nav>
+        </nav>
 
         <!-- Main -->
-          <div id="main">
+        <div id="main">
 
             <!-- Featured Post -->
-              <article class="post featured">
+            <article class="post featured">
                 <header class="major">
-                  
-                  <h2><a href="https://github.com/japhettcw/Capstone/tree/main">Capstone Project<br />
-                  </a></h2>
-                  <p>Data Cleaning and analysis in Python and Data Visualization in Tableau.
-                     This Coffee Production analysis project, conducted using Python (Pandas)
-                      for dataset exploration and aggregation, Excel for transformation, and Tableau for
-                       creating interactive dashboards and presentations, delves into global coffee market trends
+                    <h2><a href="https://github.com/japhettcw/Capstone/tree/main">Capstone Project<br /></a></h2>
+                    <p>Data Cleaning and analysis in Python and Data Visualization in Tableau.
+                        This Coffee Production analysis project, conducted using Python (Pandas)
+                        for dataset exploration and aggregation, Excel for transformation, and Tableau for
+                        creating interactive dashboards and presentations, delves into global coffee market trends
                         from 2010-2020. Motivated by a personal connection to Ethiopia's rich coffee culture, the study
-                       explores the impact of coffee origins on the global market. Key questions focus on agricultural land per capita across income levels, regional specializations' influence on coffee production, and the relationship between government investment in agricultural research and coffee production efficiency.
-                        Data sources include Our World in Data for coffee production and agricultural metrics, and the World Bank for world economy data. Challenges include addressing data quality, industry dynamics, and the subjective nature of consumer preferences. The Tableau dashboard link visually presents the insights gained from this comprehensive analysis.</p>
+                        explores the impact of coffee origins on the global market. Key questions focus on agricultural land per capita across income levels, regional specializations' influence on coffee production, and the relationship between government investment in agricultural research and coffee production efficiency.
+                        Data sources include Our World in Data for coffee production and agricultural metrics, and the World Bank for world economy data. Challenges include addressing data quality, industry dynamics, and the subjective nature of consumer preferences. The Tableau dashboard link visually presents the insights gained from this comprehensive analysis.
+                    </p>
                 </header>
                 <a href="https://github.com/japhettcw/Capstone/tree/main" class="image main"><img src="images/coffee_image.jpg" alt="" /></a>
                 <ul class="actions special">
-                  <li><a href="https://github.com/japhettcw/Capstone/tree/main" class="button large">View Project</a></li>
+                    <li><a href="https://github.com/japhettcw/Capstone/tree/main" class="button large">View Project</a></li>
                 </ul>
-              </article>
-              <!-- Posts -->
-              <section class="posts">
-                <article>
-                  <header>
-                    
-                    <h2><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a"> Grocery store sales analysis<br />
-                    </a></h2>
-                  </header>
-                  <a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="image fit"><img src="images/supermarket_pic_2.jpg" alt="" /></a>
-                  <p> In this SQL project, I cleaned and analyzed sales data for FoodYum, a grocery store chain. The analysis involved handling missing values, ensuring data consistency, and extracting insights into product pricing and sales performance across different categories. Key tasks included identifying missing year data, calculating price ranges for each product type, and focusing on high-performing meat and dairy products. This project demonstrates my ability to process and analyze real-world data for business insights.</p>
-                  <ul class="actions special">
-                    <li><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="button">View Project</a></li>
-                  </ul>
-                </article>
+            </article>
+
             <!-- Posts -->
             <section class="posts">
-              <article>
-                <header>
-                  
-                  <h2><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a"> Grocery store sales analysis<br />
-                  </a></h2>
-                </header>
-                <a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="image fit"><img src="images/supermarket_pic_1.jpg" alt="" /></a>
-                <p> In this SQL project, I cleaned and analyzed sales data for FoodYum, a grocery store chain. The analysis involved handling missing values, ensuring data consistency, and extracting insights into product pricing and sales performance across different categories. Key tasks included identifying missing year data, calculating price ranges for each product type, and focusing on high-performing meat and dairy products. This project demonstrates my ability to process and analyze real-world data for business insights.</p>
-                <ul class="actions special">
-                  <li><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="button">View Project</a></li>
-                </ul>
-              </article>
+                <article>
+                    <header>
+                        <h2><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a"> Grocery store sales analysis<br /></a></h2>
+                    </header>
+                    <a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="image fit"><img src="images/supermarket_pic_2.jpg" alt="" /></a>
+                    <p>In this SQL project, I cleaned and analyzed sales data for FoodYum, a grocery store chain. The analysis involved handling missing values, ensuring data consistency, and extracting insights into product pricing and sales performance across different categories. Key tasks included identifying missing year data, calculating price ranges for each product type, and focusing on high-performing meat and dairy products. This project demonstrates my ability to process and analyze real-world data for business insights.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="button">View Project</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h2><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a"> Grocery store sales analysis<br /></a></h2>
+                    </header>
+                    <a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="image fit"><img src="images/supermarket_pic_1.jpg" alt="" /></a>
+                    <p>In this SQL project, I cleaned and analyzed sales data for FoodYum, a grocery store chain. The analysis involved handling missing values, ensuring data consistency, and extracting insights into product pricing and sales performance across different categories. Key tasks included identifying missing year data, calculating price ranges for each product type, and focusing on high-performing meat and dairy products. This project demonstrates my ability to process and analyze real-world data for business insights.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.datacamp.com/datalab/w/56cdb44b-36e3-4195-8258-e7373719958a" class="button">View Project</a></li>
+                    </ul>
+                </article>
+            </section>
 
-<!-- Contact -->
+            <!-- Contact -->
             <section class="split contact">
                 <section class="alt">
                     <h3>Address</h3>
@@ -108,7 +181,7 @@
                 </section>
                 <section>
                     <h3>Email</h3>
-                                      <p><a href="mailto:Japhetwolde@gmail.com">Japhetwolde@gmail.com</a></p>
+                  <p><a href="mailto:Japhetwolde@gmail.com">Japhetwolde@gmail.com</a></p>
                 </section>
                 <section>
                     <h3>Social</h3>
@@ -125,10 +198,26 @@
         <footer id="footer">
             <ul>
                 <li>&copy; Yafet Wolde</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
         </footer>
 
     </div>
 
-</body>
+        <!-- Copyright -->
+          <div id="copyright">
+              <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
 </html>
+            <ul><li>&copy; Yafet Wolde</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+          </div>
+
+      </div>
